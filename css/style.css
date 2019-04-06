@@ -225,6 +225,7 @@ body {
 ==================================================*/
 
 header {
+    color: white;
     text-align: center;
     -webkit-transition: all .5s;
     transition: all .5s;
@@ -282,7 +283,7 @@ a.active {
 ==================================================*/
 
 #home {
-    background: url(../img/home-bg-2.jpg);
+    background: url(../portada.jpg);
     background-size: cover;
     height: 100vh;
 }
@@ -580,8 +581,11 @@ a.active {
 }
 
 .portfolio_item img {
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .portfolio-padding {
